@@ -231,20 +231,10 @@ header nav li {
 
 .destinations .grid li.small {
     flex-basis: 30%;
-    opacity: 0.7;
-}
-
-.destinations .grid li.small:hover {
-    flex-basis: 30%;
     opacity: 1;
 }
 
 .destinations .grid li.large {
-    flex-basis: 70%;
-    opacity: 0.7;
-}
-
-.destinations .grid li.large:hover {
     flex-basis: 70%;
     opacity: 1;
 }
@@ -320,6 +310,14 @@ h2 a i{
     }
     .testimonials .author {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 800px) {
+    .contact h4 {
+        font-size: 18px;
+        margin: 15px 0;
+        text-align: center;
     }
 }
 
